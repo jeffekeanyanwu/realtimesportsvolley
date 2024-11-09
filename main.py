@@ -115,6 +115,12 @@ async def get_volleyball_leagues():
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"An error occurred: {str(e)}")
 
+
+# TODO: Change Volleyball-API to sportsdevs Volleyball API
+# TODO: reduce scope of platform to follow only Brazilian and Italian Men's Volleyball SuperLega/Liga
+# TODO: related to above  - come up with scaleable way to add more leagues if necessary (something involving airflow here..)
+
+
 # reminder jeff: every time you make changes to your FastAPI app, rebuild the Docker image:
 
 # docker build -t fastapi-app .
