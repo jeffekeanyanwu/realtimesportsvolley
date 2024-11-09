@@ -11,4 +11,11 @@ modules.xml
 rtsa.iml
 profiles_settings.xml
 vcs.xml
-/.idea
+
+__pycache__/
+.idea/
+.env
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
